@@ -1,4 +1,4 @@
-# Semantic Similarity Synonym Picker
+# Semantic Similarity Synonym Selection
 
 When you see a digital dictionary suggest alternatives, a writing assistant pick better wording, or a search engine understand “car” ≈ “vehicle,” you are benefiting from semantic similarity. This project learns word meaning from large texts and then answers multiple-choice synonym questions (like TOEFL) by picking the option most similar in meaning to the prompt word.
 
