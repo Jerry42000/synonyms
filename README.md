@@ -6,6 +6,6 @@ Feed the system roughly ~100000 words of text (combined novels/articles are fine
 
 *How it works
 
--->Build a semantic descriptor for each word: a dictionary counting how often other words co-occur with it in the same sentence (from your training corpus). Then compare words by cosine similarity of those vectors. The starter spec describes this pipeline and the cosine metric. 
+-->Build a semantic descriptor for each word: a dictionary counting how often other words co-occur with it in the same sentence (from your training corpus). Then compare words by cosine similarity of those vectors.
 
 -->Core functions (in synonyms.py): vector norm & cosine, building descriptors from sentences/files, and choosing the most similar choice.
